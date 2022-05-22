@@ -4,7 +4,7 @@
 
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  padding: 3rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -51,7 +51,7 @@
 }
 
 .description {
-  margin: 4rem 0;
+  margin: 2rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
 }
@@ -113,4 +113,23 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.nav ul li {
+  list-style: none;
+  font-weight: bold;
+  margin: 0 2rem;
+}
+
+.Image {
+  border-radius: 30px;
+}
+.Imagewarp {
+  padding-top: 20px;
 }
